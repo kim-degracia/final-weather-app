@@ -33,6 +33,7 @@ h4 {
   margin: 5px 0 0;
   text-align: center;
 }
+
 .weatherApp {
   border: 1px solid #042f4b;
   padding: 15px;
@@ -74,4 +75,10 @@ h4 {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
   text-align: center;
+}
+
+.openSourceCode {
+  color: #3b6978;
+  font-family: "Quicksand", sans-serif;
+  font-size: 12px;
 }
