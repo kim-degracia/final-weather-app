@@ -25,6 +25,7 @@ h3 {
   font-size: 35px;
   margin: 5px 0 0;
   text-align: center;
+  text-transform: capitalize;
 }
 h4 {
   color: #3b6978;
@@ -32,6 +33,7 @@ h4 {
   font-size: 35px;
   margin: 5px 0 0;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .weatherApp {

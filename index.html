@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/afded9dfce.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>Weather Application 🌦</title>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather Application 🌦</title>
 </head>
 
 <body>
@@ -23,19 +23,16 @@
                     <button type="submit" class=" btn btn-primary" value="Search">Search</button>
                     <button type="button" class="btn btn-success" id="current-location-button">Current Location</button>
                 </form>
-
             </div>
-
-
             <h1 id="city"></h1>
-            <h2>Sunday, July 16, 2020</h2>
-            <h3>23:00</h3>
-            <h4></h4>
-
+            <h2 class="day-and-time" id ="day-and-time">
+            <h3 id = "description"></h3>
+            <h4 id = "icon"></h4>
             <div class="currentCityInfo">
                 <div class="row">
+                    
                     <div class="col temperature" id="temperature-swap">
-                        <p class="currentWeather" id="current-weather">°C</p>
+                        <p class="currentWeather" id="temperature">°C</p>
                         <div class="Humidity" id="humid">
                             Humidity: %
                         </div>
