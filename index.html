@@ -27,20 +27,24 @@
             <h1 id="city"></h1>
             <h2 class="day-and-time" id ="day-and-time">
             <h3 id = "description"></h3>
-            <h4 id = "icon"></h4>
-            <div class="currentCityInfo">
-                <div class="row">
+            <br />
+            <h4 class="clearfix-weather-temperature" id="icon-temperature">
+                        <img src="" alt="Clear" class="center" id="icon"/>
+                            <strong id="temperature-swap">
+                            </strong>
+                            <span class="units">
+                                <span class="currentWeather" id="temperature"></span>
+                                <a href="#" id="celsius-link" class="active">°C</a> | 
+                                <a href="#" id="fahrenheit-link" class="active">°F</a>
+                         </span>
+                        
+            </h4>
                     
-                    <div class="col temperature" id="temperature-swap">
-                        <p class="currentWeather" id="temperature">°C</p>
-                        <div class="Humidity" id="humid">
-                            Humidity: %
-                        </div>
-                        <div class="Wind" id="wind">
-                            Wind: km/h
-                        </div>
-                    </div>
-                </div>
+                    <ul>
+                        <li class="humid"> Humidity: <span id="humid"></span>%</li>
+                        <li class="wind"> Wind: <span id="wind"></span> km/h </li>
+                    </ul>
+            </div>
                 <p class="openSourceCode"><a href = "https://github.com/kim-degracia/final-weather-app" target = "_blank"> Open-source code by</a>: Kim DeGracia</p>
                 <script src="src/index.js"></script>
 </body>

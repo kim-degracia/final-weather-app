@@ -28,12 +28,29 @@ h3 {
   text-transform: capitalize;
 }
 h4 {
-  color: #3b6978;
-  font-family: "Quicksand", sans-serif;
-  font-size: 35px;
-  margin: 5px 0 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
   text-align: center;
-  text-transform: capitalize;
+}
+
+.currentWeather {
+  font-size: 50px;
+  text-align: center;
 }
 
 .weatherApp {
@@ -45,38 +62,6 @@ h4 {
 }
 .inputCity {
   margin: 50px 0 0;
-}
-
-.currentCityInfo {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  margin: 50px 100px 90px;
-  padding: 15px 10px;
-  text-align: center;
-}
-
-.temperature {
-  font-size: 50px;
-}
-
-.tempInfo {
-  font-size: 30px;
-}
-
-.tempMemo {
-  font-size: 25px;
-}
-
-.icons {
-  font-size: 50px;
-  padding: 15px 10px;
-  text-align: center;
-}
-
-.weather {
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  text-align: center;
 }
 
 .openSourceCode {

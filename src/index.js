@@ -64,11 +64,11 @@ function showWeather(response) {
   let iconElement = document.querySelector("#icon");
 
   celsiusTemp = response.data.main.temp;
-  temperatureElement.innerHTML = `${Math.round(celsiusTemp)}°`;
+  temperatureElement.innerHTML = `${Math.round(celsiusTemp)}`;
   cityElement.innerHTML = response.data.name;
   descriptionElement.innerHTML = `${response.data.weather[0].description}`;
-  humidityElement.innerHTML = `Humidity: ${response.data.main.humidity} %`;
-  windElement.innerHTML = `Wind: ${Math.round(response.data.wind.speed)} km/h`;
+  humidityElement.innerHTML = `${response.data.main.humidity}`;
+  windElement.innerHTML = `${Math.round(response.data.wind.speed)}`;
   dateElement.innerHTML = getDate(response.data.dt * 1000);
   iconElement.setAttribute(
     "src",
