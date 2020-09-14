@@ -5,10 +5,10 @@ body {
 h1 {
   color: #ed1250;
   font-family: "Quicksand", sans-serif;
-  text-align: center;
   font-size: 50px;
   font-weight: bolder;
   margin: 50px 0 0;
+  text-align: center;
 }
 
 h2 {
@@ -31,6 +31,7 @@ h4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   width: 50%;
 }
 ul {
@@ -39,12 +40,11 @@ ul {
 }
 
 li {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
   list-style: none;
   margin: 0;
   padding: 0;
-
-  font-family: "Roboto", sans-serif;
-  font-size: 25px;
   text-align: center;
 }
 
@@ -55,10 +55,10 @@ li {
 
 .weatherApp {
   border: 1px solid #042f4b;
-  padding: 15px;
-  margin: 20px auto;
   border-radius: 10px;
+  margin: 20px auto;
   max-width: 1000px;
+  padding: 15px;
 }
 .inputCity {
   margin: 50px 0 0;
